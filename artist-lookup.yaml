@@ -10,3 +10,5 @@ spec:
   type: service
   lifecycle: experimental
   owner: tests@example.com
+  target:
+    - https://github.com/sonichappy/api
