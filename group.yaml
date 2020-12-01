@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: grouptest
+  description: The infra business unit
+spec:
+  type: business-unit
+  parent: ops
+  ancestors: [ops, global-synergies, acme-corp]
+  children: [backstage, other]
+  descendants: [backstage, other, team-a, team-b, team-c, team-d]
