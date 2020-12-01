@@ -3,6 +3,7 @@ kind: Component
 metadata:
   name: test-lookup
   description: Test Lookup
+  github.com/project-slug: sonichappy/bstage
   tags:
     - java
     - data
