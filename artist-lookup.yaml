@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: test-lookup
-  description: Test Lookup
+  description: Test Lookup first!
   github.com/project-slug: sonichappy/bstage
   tags:
     - java
